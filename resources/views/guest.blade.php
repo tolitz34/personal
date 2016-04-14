@@ -52,7 +52,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="img/tolitz.png" alt="logo" width="250" height="80"></a>
+            <a class="navbar-brand" href="#"><img src="img/tolitz.png" alt="logo" width="250" height="80"></a>
         </div>
 
         <div class="collapse navbar-collapse navbar-right">
@@ -91,9 +91,9 @@
             <div class="col-md-6">
                         <div class="font2 top2">
 
-                                            <h4 class="text-left"><a>My name is <strong>Joselito Pasculado</strong> and I'm a Freelance Laravel Developer in Tacloban City, Philippines</a></h4>
-                                            <h4 class="text-left"><a>I'm 1 years experience in Web Design and Development. I'm Full-stack developer specializing
-                                            in PHP (Laravel 5 Framework), MySQL, Javascript (jQuery and Ajax), HTML5, CSS3, Apache Server, and Bootstrap 3 Framework.</a></h4>
+                                            <h3 class="text-left"><a>My name is <strong>Joselito Pasculado</strong> and I'm a Freelance Laravel Developer in Tacloban City, Philippines</a></h3>
+                                            <h3 class="text-left"><a>I'm 1 years experience in Web Design and Development. I'm Full-stack developer specializing
+                                            in PHP (Laravel 5 Framework), MySQL, Javascript (jQuery and Ajax), HTML5, CSS3, Apache Server, and Bootstrap 3 Framework.</a></h3>
                         </div>
             </div>
 
@@ -101,39 +101,172 @@
 
 </div>
 
-<!--<section id="main-slider" class="no-margin">-->
-<!--    <div class="carousel slide">-->
-<!--        <ol class="carousel-indicators">-->
-<!--            <li data-target="#main-slider" data-slide-to="0" class="active"></li>-->
-<!--            <li data-target="#main-slider" data-slide-to="1"></li>-->
-<!--            <li data-target="#main-slider" data-slide-to="2"></li>-->
-<!--        </ol>-->
-<!---->
-<!--        <div class="carrot">-->
-<!---->
-<!--            <div class="item active">-->
-<!--                <div class="container">-->
-<!--                    <div class="row slide-margin">-->
-<!--                        <div class="col-sm-6">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>-->
-<!--                                <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>-->
-<!--                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!---->
-<!--                        <div class="col-sm-6 hidden-xs animation animated-item-4">-->
-<!--                            <div class="slider-img">-->
-<!--<!--                                <img src="images/slider/img1.png" class="img-responsive">-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!---->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div><!--/.item-->
-<!--        </div>-->
-<!--     </div>-->
-<!-- </section>-->
+   <section id="feature">
+       <div class="container">
+           <div class="text-center wow fadeIndown">
+               <h2>Web Developer</h2>
+               <p class="lead">There are many different types of web development jobs out there, and each has its own specific required skill set and career path. Here is a brief overview of some of your options.</p>
+           </div>
+
+           <div class="row">
+               <div class="features">
+                   <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                       <div class="feature-wrap">
+                           <i class="fa fa-plug"></i>
+                           <h4>Front-end Development</h4>
+                           <h5>Front-end developers use HTML, CSS, and often JavaScript to turn a static website design into a workable website on the web.</h5>
+                       </div>
+                   </div>
+
+                   <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                       <div class="feature-wrap">
+                           <i class="fa fa-spinner"></i>
+                           <h4>Back-end Development</h4>
+                           <h5>Back-end developers are less concerned with design and more focused on security.</h5>
+                       </div>
+                   </div>
+
+                   <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                       <div class="feature-wrap">
+                           <i class="fa fa-dot-circle-o"></i>
+                           <h4>Full-stack Development</h4>
+                           <h5>Full-stack developers do both front- and back-end development</h5>
+                       </div>
+                   </div><!--/.col-md-4-->
+
+                   <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                       <div class="feature-wrap">
+                           <i class="fa fa-leaf"></i>
+                           <h4>App Development</h4>
+                           <h5>This is slightly different from web development, but the skills you learn as a web developer lend themselves to this job as well.</h5>
+                       </div>
+                   </div><!--/.col-md-4-->
+
+                   <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                       <div class="feature-wrap">
+                           <i class="fa fa-area-chart"></i>
+                           <h4>Directory Structure</h4>
+                           <h5>Using Laravel 5 different bootstrapping functions can be accessed to your applications such as, route loading, and error handling and etc.</h5>
+                       </div>
+                   </div><!--/.col-md-4-->
+
+                   <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                       <div class="feature-wrap">
+                           <i class="fa fa-thumbs-up"></i>
+                           <h4>Technology-specific</h4>
+                           <h5>Some developers focus on an actual technology rather than a specific type of work or end product.</h5>
+                       </div>
+                   </div><!--/.col-md-4-->
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <section id="skill">
+       <div class="container">
+           <div class="row">
+               <div class="text-center skills">
+                   <h2>Our Skills</h2>
+                   <p>A Web developer is more focused on the way a website works than how it looks.</p>
+               </div>
+               <div class="col-sm-6 wow fadeInDown">
+                   <div class="progress-wrap">
+                       <h4>Graphic Design</h4>
+                       <div class="progress">
+                           <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                               <span class="bar-width">75%</span>
+                           </div>
+
+                       </div>
+                   </div>
+
+                   <div class="progress-wrap">
+                       <h4>HTML</h4>
+                       <div class="progress">
+                           <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                               <span class="bar-width">85%</span>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="progress-wrap">
+                       <h4>CSS</h4>
+                       <div class="progress">
+                           <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                               <span class="bar-width">80%</span>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="progress-wrap">
+                       <h4>jQuery</h4>
+                       <div class="progress">
+                           <div class="progress-bar color4" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                               <span class="bar-width">60%</span>
+                           </div>
+                       </div>
+                   </div>
+
+               </div>
+
+               <div class="col-sm-6 wow fadeInDown">
+
+                   <div class="progress-wrap">
+                       <h4>Ajax</h4>
+                       <div class="progress">
+                           <div class="progress-bar color5" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                               <span class="bar-width">65%</span>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="progress-wrap">
+                       <h4>Bootstrap 3</h4>
+                       <div class="progress">
+                           <div class="progress-bar color6" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                               <span class="bar-width">90%</span>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="progress-wrap">
+                       <h4>FullCalendar.js</h4>
+                       <div class="progress">
+                           <div class="progress-bar color7" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                               <span class="bar-width">75%</span>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="progress-wrap">
+                       <h4>Mysql</h4>
+                       <div class="progress">
+                           <div class="progress-bar color8" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                               <span class="bar-width">95%</span>
+                           </div>
+                       </div>
+                   </div>
+
+               </div>
+           </div>
+       </div>
+   </section>
+
+    <section id="works">
+        <div class="container">
+            <div class="text-center wow fadeInDown">
+                <h2>Recent Works</h2>
+                <p class="lead">The Recent Work allows you to display ours portfolio posts on any page or post without needing to use one of the portfolio page templates</p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
