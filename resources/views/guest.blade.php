@@ -7,13 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {!! Html::style('css/style.css') !!}
+
     {!! Html::style('css/bootstrap.min.css') !!}
     {!! Html::style('fonts/font-awesome/css/font-awesome.css') !!}
 <!--    <link rel="stylesheet" href="css/font-awesome.min.css">-->
 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
 </head>
 
 <body>
+
 
 <header id="header">
     <div class="top-bar">
@@ -96,6 +104,16 @@
                                             in PHP (Laravel 5 Framework), MySQL, Javascript (jQuery and Ajax), HTML5, CSS3, Apache Server, and Bootstrap 3 Framework.</a></h3>
                         </div>
             </div>
+
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <div class="top2 text-center">
+                    <a href="#feature" class="fa fa-angle-down page-scroll"></a>
+                </div>
+            </div>
+        </div>
+
+
 
     </div>
 
@@ -253,11 +271,23 @@
        </div>
    </section>
 
-    <section id="works">
+    <section id="work">
         <div class="container">
             <div class="text-center wow fadeInDown">
                 <h2>Recent Works</h2>
                 <p class="lead">The Recent Work allows you to display ours portfolio posts on any page or post without needing to use one of the portfolio page templates</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 work-space">
+                <a href="http://fildoctor.com" data-lightbox="image-1">
+                    <div class="featured-img">
+                        <img src="img/fildoctor.jpg"/>
+                    </div>
+                    <div class="image-hover">
+                        <i class="glyphicon glyphicon-eye-open"></i>
+                    </div>
+                    <h3>Doctor Appointment</h3>
+                </a>
             </div>
 
 
@@ -266,10 +296,10 @@
 
 
 
+</div>
 
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
 
 </body>
 </html>
