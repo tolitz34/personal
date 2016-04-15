@@ -365,6 +365,11 @@ strong {
      padding: 0;
  }
 
+ img {
+     max-width: 100%;
+     display: block;
+     height: auto;
+ }
 
  .feature-wrap {
      margin-bottom: 35px;
@@ -487,8 +492,9 @@ a.fa.fa-angle-down.page-scroll {
 
 a.fa.fa-angle-down.page-scroll:hover{
     background: #fcac45;
+    text-decoration: none;
     color: #ffffff;
-    border: 2px solid #fcac45;
+    border: 2px solid #fff;
 }
 
 .image-hover {
@@ -518,4 +524,32 @@ a.fa.fa-angle-down.page-scroll:hover{
 .work-space
 {
     margin: 20px 0px;
+}
+
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #2ca02c;
+    border-top:5px solid #f6a50a;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer a:hover {
+    color: #f6a50a;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer ul > li {
+    display: inline-block;
+    margin-left: 15px;
 }
