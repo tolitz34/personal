@@ -65,20 +65,20 @@
 
         <div class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="">Home</a></li>
-                <li><a href="">Portfolio</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
                 <li><a href="{{ url('/blog') }}">Blog</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="">FilDoctor.com</a></li>
-                        <li><a href="">Fine a Doctor</a></li>
-                        <li><a href="">Register</a></li>
-                        <li><a href="">Login</a></li>
+                        <li><a href="http://fildoctor.com">FilDoctor.com</a></li>
+                        <li><a href="http://fildoctor.com/public/search">Find a Doctor</a></li>
+                        <li><a href="http://fildoctor.com/public/auth/register">Register</a></li>
+                        <li><a href="http://fildoctor.com/public/auth/login">Login</a></li>
                     </ul>
                 </li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </div><!--/.container-->
@@ -100,8 +100,7 @@
                         <div class="font2 top2">
 
                                             <h3 class="text-left"><a>My name is <strong>Joselito Pasculado</strong> and I'm a Freelance Laravel Developer in Tacloban City, Philippines</a></h3>
-                                            <h3 class="text-left"><a>I'm 1 years experience in Web Design and Development. I'm Full-stack developer specializing
-                                            in PHP (Laravel 5 Framework), MySQL, Javascript (jQuery and Ajax), HTML5, CSS3, Apache Server, and Bootstrap 3 Framework.</a></h3>
+
                         </div>
             </div>
 
@@ -122,8 +121,9 @@
    <section id="feature">
        <div class="container">
            <div class="text-center wow fadeIndown">
-               <h2>Web Developer</h2>
-               <p class="lead">There are many different types of web development jobs out there, and each has its own specific required skill set and career path. Here is a brief overview of some of your options.</p>
+               <h2>Laravel Developer</h2>
+               <p class="lead">I'm Full-stack developer specializing
+                   in PHP (Laravel 5 Framework), MySQL, Javascript (jQuery and Ajax), HTML5, CSS3, and Bootstrap 3.</p>
            </div>
 
            <div class="row">
@@ -186,7 +186,7 @@
            <div class="row">
                <div class="text-center skills">
                    <h2>Our Skills</h2>
-                   <p>A Web developer is more focused on the way a website works than how it looks.</p>
+                   <p>I'm 1 years experience in Web Design and Development.</p>
                </div>
                <div class="col-sm-6 wow fadeInDown">
                    <div class="progress-wrap">
@@ -290,9 +290,39 @@
                 </a>
             </div>
 
+            <div class="col-md-4 col-sm-6 col-xs-12 work-space">
+                <a href="#" data-lightbox="image-1">
+                    <div class="featured-img">
+                        <i class="fa fa-upload fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="image-hover">
+                        <i class="glyphicon glyphicon-eye-open"></i>
+                    </div>
+                    <h3>Upload Works</h3>
+                </a>
+            </div>
+
 
         </div>
     </section>
+
+     <footer id="footer" class="midnight">
+         <div class="container">
+             <div class="row">
+                 <div class="col-sm-6">
+                     &copy; {{ date("Y") }} <a target="_blank" href="http://laravelians.esy.es" title="Tolitz34 Freelance">Freelance Laravel Developer</a>. All Rights Reserved.
+                 </div>
+                 <div class="col-sm-6">
+                     <ul class="pull-right">
+                         <li><a href="#">Feedback</a></li>
+                         <li><a href="#">FAQ</a></li>
+                         <li><a href="#">About Us</a></li>
+                         <li><a href="#">Contact Us</a></li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </footer>
 
 
 
