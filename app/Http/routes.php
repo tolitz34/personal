@@ -17,5 +17,6 @@
 
 Route::get('/', 'GuestController@index');
 Route::get('blog', 'GuestController@blog');
+Route::get('chart', 'GuestController@generatecharts');
 
 
