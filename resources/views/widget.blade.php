@@ -13,7 +13,7 @@
 
 <div class="row">
     <div class="page-header">
-        <h2>Welcome to analytics</h2>
+        <h2>Welcome to lavacharts</h2>
     </div>
 
 </div>
