@@ -66,7 +66,7 @@
         <div class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="chart">charts</a></li>
+                <li><a href="{{ url('chart') }}">Charts</a></li>
                 <li><a href="{{ url('/blog') }}">Blog</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <i class="fa fa-angle-down"></i></a>
@@ -99,8 +99,8 @@
             <div class="col-md-6">
                         <div class="font2 top2">
 
-                                            <h3 class="text-left"><a>My name is <strong>Joselito Pasculado</strong> and I'm a Freelance Laravel Developer in Tacloban City, Philippines</a></h3>
-
+                                            <h3 class="text-left"><a>My name is <strong>Joselito Pasculado</strong> an6d I'm a Freelance Laravel Developer in Tacloban City, Philippines</a></h3>
+                                            <p>I'm Full-stack developer specializing in PHP (Laravel 5 Framework), MySQL, Javascript (jQuery and Ajax), HTML5, CSS3, and Bootstrap 3.</p>
                         </div>
             </div>
 

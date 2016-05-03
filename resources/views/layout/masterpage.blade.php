@@ -67,8 +67,8 @@
 
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="#work">Portfolio</a></li>
+                    <li class="active"><a href="{{ url('/') }}">Home</a></li>
+                    <li><a href="#work">Charts</a></li>
                     <li><a href="{{ url('/blog') }}">Blog</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <i class="fa fa-angle-down"></i></a>
