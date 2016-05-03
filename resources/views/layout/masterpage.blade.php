@@ -13,6 +13,9 @@
     <!--    <link rel="stylesheet" href="css/font-awesome.min.css">-->
 
     <script src="js/jquery.js"></script>
+
+<!--    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+
     <script src="js/bootstrap.min.js"></script>
 
 
@@ -64,7 +67,7 @@
 
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="/">Home</a></li>
                     <li><a href="#work">Portfolio</a></li>
                     <li><a href="{{ url('/blog') }}">Blog</a></li>
                     <li class="dropdown">
@@ -85,8 +88,12 @@
 
 </header>
 
+   @yield('content')
 
 
+
+
+<script src="{{ asset('js/scripts/frontend.js') }}" type="text/javascript"></script>
 
 </body>
 

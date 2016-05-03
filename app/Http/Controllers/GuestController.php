@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Khill\Lavacharts\Lavacharts;
+use App\Http\Controllers\Lava;
 
 class GuestController extends Controller
 {
@@ -21,32 +22,10 @@ class GuestController extends Controller
         return view('blog');
     }
 
-    public function generatecharts()
+    public function charts()
     {
-        $lava = new Lavacharts;
-        $stocksTable = $lava->DataTable();
 
-        $stocksTable->addDateColumn('Day of Month')
-                    ->addNumberColumn('Project')
-                    ->addNumberColumn('Official');
-
-        // Random Data For Example
-
-        for ($a = 1; $a < 30; $a++)
-        {
-            $rowData = array(
-                "2014-8-$a", rand(800, 1000), rand(800, 1000)
-            );
-
-            $stocksTable->addRow($rowData);
-        }
-
-        $chart = $lava->LineChart('Stocks')
-                      ->setOptions(array(
-                         'datatable' => $stocksTable,
-                         'title' => 'Stock Market Trends'
-            ));
-
-        return view('widget');
+          return view('widget');
     }
+
 }

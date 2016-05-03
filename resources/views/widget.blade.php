@@ -11,15 +11,38 @@
 
 @section ('content')
 
-<div class="row">
-    <div class="page-header">
-        <h2>Welcome to lavacharts</h2>
+<div class="container">
+
+    <div class="row">
+        <div class="page-header">
+            <h2>Welcome to charts</h2>
+        </div>
+
     </div>
 
-</div>
-<div id="stock-div"></div>
-echo $lava->render('LineChart', 'Stocks', 'stock-div');
-@linechart('Stocks', 'stocks-div');
+    <div id="row">
+        <div class="col-sm-6">
+
+            @include('widgets.charts.clinechart')
+            @include('widgets.charts.cbarchart')
+        </div>
+        <div class="col-sm-6">
+            <div style="max-width:400px; margin:0 auto;">@include('widgets.charts.cdonutchart')</div>
+
+            <div style="max-width:400px; margin:0 auto;">@include('widgets.charts.cpiechart')</div>
+
+        </div>
+
+
+    </div>
+
+
+
+ </div>
+
+
+
+
 
 
 @endsection

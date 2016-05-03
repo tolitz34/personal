@@ -17,6 +17,10 @@
 
 Route::get('/', 'GuestController@index');
 Route::get('blog', 'GuestController@blog');
-Route::get('chart', 'GuestController@generatecharts');
+Route::get('/chart', function()
+{
+    return View::make('widget');
+
+});
 
 
