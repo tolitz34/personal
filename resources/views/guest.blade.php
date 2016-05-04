@@ -8,7 +8,7 @@
 
     {!! Html::style('css/style.css') !!}
 
-    {!! Html::style('css/bootstrap.min.css') !!}
+    {!! Html::style('css/bootstrap/bootstrap.min.css') !!}
     {!! Html::style('fonts/font-awesome/css/font-awesome.css') !!}
 <!--    <link rel="stylesheet" href="css/font-awesome.min.css">-->
 
@@ -65,11 +65,12 @@
 
         <div class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="{{ url('chart') }}">Charts</a></li>
-                <li><a href="{{ url('/blog') }}">Blog</a></li>
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#work">Portfolio</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <i class="fa fa-angle-down"></i></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <i class="fa fa-angle-right"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="http://fildoctor.com">FilDoctor.com</a></li>
                         <li><a href="http://fildoctor.com/public/search">Find a Doctor</a></li>
@@ -77,7 +78,6 @@
                         <li><a href="http://fildoctor.com/public/auth/login">Login</a></li>
                     </ul>
                 </li>
-                <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
@@ -98,8 +98,8 @@
         <div class="col-md-4 top2 pictureid"><img src="img/id.jpg" alt="logo" class="img-thumbnail" width="150" height="150"></div>
             <div class="col-md-6">
                         <div class="font2 top2">
-
-                                            <h3 class="text-left"><a>My name is <strong>Joselito Pasculado</strong> an6d I'm a Freelance Laravel Developer in Tacloban City, Philippines</a></h3>
+                                            <h2>About Us</h2>
+                                            <h3 class="text-left"><a>My name is <strong>Joselito Pasculado</strong> and I'm a Freelance Laravel Developer in Tacloban City, Philippines</a></h3>
                                             <p>I'm Full-stack developer specializing in PHP (Laravel 5 Framework), MySQL, Javascript (jQuery and Ajax), HTML5, CSS3, and Bootstrap 3.</p>
                         </div>
             </div>
@@ -186,7 +186,7 @@
            <div class="row">
                <div class="text-center skills">
                    <h2>Our Skills</h2>
-                   <p>I'm 1 years experience in Web Design and Development.</p>
+                   <p>I'm 1 years experience in Web Design and Laravel Development.</p>
                </div>
                <div class="col-sm-6 wow fadeInDown">
                    <div class="progress-wrap">

@@ -71,7 +71,7 @@
                     <li><a href="#work">Charts</a></li>
                     <li><a href="{{ url('/blog') }}">Blog</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <i class="fa fa-angle-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <i class="fa fa-chevron-right"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="http://fildoctor.com">FilDoctor.com</a></li>
                             <li><a href="http://fildoctor.com/public/search">Find a Doctor</a></li>

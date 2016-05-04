@@ -7,6 +7,10 @@ body {
 
 
 }
+p {
+    font-weight: normal;
+    font-size: 16px;
+}
 
 div {
     display: block;
@@ -552,4 +556,18 @@ a.fa.fa-angle-down.page-scroll:hover{
 #footer ul > li {
     display: inline-block;
     margin-left: 15px;
+}
+
+ul .dropdown-menu {
+    background-color: #000000;
+    -moz-box-shadow:inset -1px 0px 30px #6b6b6b;
+    -webkit-box-shadow:inset -1px 0px 30px #6b6b6b;
+    box-shadow:inset -1px 0px 30px #6b6b6b;
+
+
+}
+
+
+ul .dropdown-menu > li > a {
+    color: #FFFFFF;
 }
